@@ -10,4 +10,10 @@ module MyEnumerable
     each { |item| res = true if block.call(item) }
     res
   end
+
+  def filter(&block)
+    res = []
+    each { |item| res << item if block.call(item) }
+    res
+  end
 end
