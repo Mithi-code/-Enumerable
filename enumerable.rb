@@ -4,4 +4,10 @@ module MyEnumerable
     each { |item| res = false unless block.call(item) }
     res
   end
+
+  def any?(&block)
+    res = false
+    each { |item| res = true if block.call(item) }
+    res
+  end
 end
