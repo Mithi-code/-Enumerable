@@ -2,13 +2,7 @@
 
 ## Description
 
-In this project, we have created a simple app to decode morse code. We engineered the app using Ruby.
-
-## Screenshot
-
-![Coming soon!](https://placeholder.png)
-
-`Current screenshot`
+In this project, we have created a class my_list and a module enumerable. The module implements a subset of the functionality of Enumerable.
 
 ## Built With
 
